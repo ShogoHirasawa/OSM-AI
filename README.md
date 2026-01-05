@@ -15,7 +15,7 @@
 
    Download from here:
    
-   👉 **[Download osm_ai.zip]([osm_ai.zip](https://github.com/user-attachments/files/24428320/osm_ai.zip))**
+   👉 **[Download osm_ai.zip](https://github.com/user-attachments/files/24428320/osm_ai.zip)**
 
 2. **Open QGIS** and go to **"Plugins" → "Manage and Install Plugins"**
 
