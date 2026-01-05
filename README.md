@@ -1,6 +1,8 @@
 # OSM AI - QGIS Plugin
 ![demo](https://github.com/user-attachments/assets/d87e510e-8ad2-4099-bdaf-26d723e7efbf)
 
+English | [日本語](README.ja.md)
+
 ## Overview
 
 **OSM AI** is a QGIS plugin that lets you search and fetch OpenStreetMap data using a chat interface. It uses LLM (OpenAI API) to automatically generate Overpass QL queries and add OSM data as QGIS layers.
