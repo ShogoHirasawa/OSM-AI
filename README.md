@@ -1,37 +1,11 @@
 # OSM AI - QGIS Plugin
-
-Fetch OpenStreetMap data through a chat interface.
+![demo](https://github.com/user-attachments/assets/d87e510e-8ad2-4099-bdaf-26d723e7efbf)
 
 ## Overview
 
 **OSM AI** is a QGIS plugin that lets you search and fetch OpenStreetMap data using a chat interface. It uses LLM (OpenAI API) to automatically generate Overpass QL queries and add OSM data as QGIS layers.
 
 * **Note**: You need to obtain an OpenAI API key. API usage fees are your responsibility.
-
-## Key Features
-
-### Chat-Based Data Search
-- **Multi-language support**: UI language automatically adapts to your QGIS language settings (Japanese, English, Chinese, Spanish, etc.)
-- **Conversational interface**: Enter requests naturally like chatting
-
-### Chat Functions
-- **Multiple tabs**: Run different search tasks in parallel across multiple tabs
-- **History retention**: Each tab keeps its own chat history for context-aware searches
-
-### Flexible Geographic Search
-1. **Current view search**: Automatically detects the map view's bounding box
-2. **Location-based search**: Search by place name (e.g., "city halls in Yokohama", "cafes in Shibuya")
-
-### Keyboard Shortcuts
-- Send messages with **Enter** or **Command+Enter** (configurable)
-- Efficient operation
-
-## Requirements
-
-- **QGIS**: 3.x or higher
-- **Python**: 3.9 or higher (included in QGIS)
-- **Internet connection**: Required for OpenAI API and Overpass API
-- **OpenAI API key**: Obtain from [OpenAI Platform](https://platform.openai.com/)
 
 ## Installation
 
@@ -62,6 +36,39 @@ Fetch OpenStreetMap data through a chat interface.
 2. Create a new API key on the [API Keys](https://platform.openai.com/api-keys) page
 
 3. Copy the API key
+
+4. Open an API setting page in QGIS
+**"Plugins" → "OSM AI Agent" → "Settings"**
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/c979195e-aa90-4910-af2b-85be30a88575" />
+
+5. Set your API key
+<img width="500" height="500" alt="API setting page" src="https://github.com/user-attachments/assets/0526c26c-c3fa-4914-87d5-fcb26e8b0e12" />
+
+## Key Features
+
+### Chat-Based Data Search
+- **Multi-language support**: UI language automatically adapts to your QGIS language settings (Japanese, English, Chinese, Spanish, etc.)
+- **Conversational interface**: Enter requests naturally like chatting
+
+### Chat Functions
+- **Multiple tabs**: Run different search tasks in parallel across multiple tabs
+- **History retention**: Each tab keeps its own chat history for context-aware searches
+
+### Flexible Geographic Search
+1. **Current view search**: Automatically detects the map view's bounding box
+2. **Location-based search**: Search by place name (e.g., "city halls in Yokohama", "cafes in Shibuya")
+
+### Keyboard Shortcuts
+- Send messages with **Enter** or **Command+Enter** (configurable)
+- Efficient operation
+
+## Requirements
+
+- **QGIS**: 3.x or higher
+- **Python**: 3.9 or higher (included in QGIS)
+- **Internet connection**: Required for OpenAI API and Overpass API
+- **OpenAI API key**: Obtain from [OpenAI Platform](https://platform.openai.com/)
+
 
 ### Configure API Key in Plugin
 
