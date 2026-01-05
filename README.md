@@ -15,9 +15,7 @@
 
    Download from here:
    
-   👉 **[Download osm_ai.zip](https://github.com/YOUR_USERNAME/osm_ai/raw/main/osm_ai.zip)**
-   
-   > 📝 **Note**: Replace `YOUR_USERNAME` with your actual GitHub username after publishing the repository.
+   👉 **[Download osm_ai.zip](https://github.com/ShogoHirasawa/OSM-AI/blob/main/osm_ai.zip)**
 
 2. **Open QGIS** and go to **"Plugins" → "Manage and Install Plugins"**
 
