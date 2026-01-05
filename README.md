@@ -145,55 +145,6 @@ You can select the send shortcut in the **settings screen** (⚙️ icon):
   - Send message: **Command+Enter** (Mac) or **Ctrl+Enter** (Windows/Linux)
   - New line: **Enter**
 
-## Troubleshooting
-
-### "API key not found" Error
-
-**Cause**: OpenAI API key is not configured
-
-**Solution**:
-1. Open the plugin settings screen
-2. Enter your OpenAI API Key
-3. Verify the key is valid at [OpenAI Platform](https://platform.openai.com/api-keys)
-
-### "Overpass API request failed: 400" Error
-
-**Cause**: Generated query is invalid or search area is inappropriate
-
-**Solution**:
-1. Try entering more specific instructions
-2. Try searches with place names (e.g., "cafes in Tokyo")
-3. Zoom in on the map and try again
-
-### Cannot Fetch Data
-
-**Cause**: Overpass API rate limit or too much data requested
-
-**Solution**:
-1. Check your internet connection
-2. Wait a few minutes before retrying (consecutive requests may be blocked)
-3. Zoom in to narrow the search area
-4. Specify more specific categories (e.g., "stores" → "convenience stores")
-
-### Added Layer Not Visible
-
-**Cause**: Data extent may be outside the current view
-
-**Solution**:
-1. Check for error messages in the QGIS message bar
-2. Right-click the fetched layer in the layer panel
-3. Select **"Zoom to Layer"**
-
-### Plugin Won't Start
-
-**Cause**: Incomplete installation or Python environment issue
-
-**Solution**:
-1. Restart QGIS
-2. Disable and re-enable the plugin
-3. Reinstall the plugin
-4. Check error messages in the QGIS Python console
-
 ## Technical Information
 
 ### APIs Used
@@ -247,6 +198,21 @@ A: Any data available in OpenStreetMap (POIs, roads, buildings, land use, etc.).
 
 **Q: Can I use languages other than English?**  
 A: Yes. Multiple languages are supported including Japanese, English, Chinese, and Spanish. The UI automatically adapts to your QGIS language settings.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
+
+### What does this mean?
+
+- ✅ You can **use** this plugin for any purpose, including commercial use
+- ✅ You can **modify** and **redistribute** this plugin
+- ❌ If you distribute modified versions, you must:
+  - Make the source code available
+  - Use the same GPL v3 license
+  - State the changes you made
+
+This ensures the plugin remains open source and prevents closed-source commercial derivatives.
 
 ## Support
 
