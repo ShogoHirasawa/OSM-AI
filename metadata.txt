@@ -5,13 +5,13 @@ name=OSM AI Agent
 qgisMinimumVersion=3.0
 description=AI-powered OpenStreetMap data fetcher using natural language queries
 version=0.1.0
-author=Your Name
-email=your.email@example.com
+author=Shogo Hirasawa
+email=origami.no.1@gmail.com
 
 about=OSM AI Agent is a QGIS plugin that allows users to fetch OpenStreetMap data using natural language queries. Simply describe what you want to find (e.g., "Get all convenience stores in the current view"), and the plugin will use AI (OpenAI API) to generate an Overpass query, fetch the data, and add it as a layer to your QGIS project.
 
-tracker=https://github.com/yourusername/osm-ai-agent/issues
-repository=https://github.com/yourusername/osm-ai-agent
+tracker=https://github.com/ShogoHirasawa/OSM-AI/issues
+repository=https://github.com/ShogoHirasawa/OSM-AI
 # End of mandatory metadata
 
 # Recommended items:
@@ -25,7 +25,7 @@ changelog=
 # Tags are comma separated with spaces allowed
 tags=openstreetmap, osm, ai, llm, overpass, natural language
 
-homepage=https://github.com/yourusername/osm-ai-agent
+homepage=https://github.com/ShogoHirasawa/OSM-AI
 category=Vector
 icon=icon.png
 
