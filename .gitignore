@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# QGIS
+*.qgs~
+
+# Test files
+test_*.py
+tests/
+
+# Environment
+.env
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
